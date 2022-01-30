@@ -1,22 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Chunks</h1>
+        <p>Instructions:</p>
+        <ol>
+          <li>Enter symbol atoms to create molecules in database table 1.</li>
+          <li>
+            Enter molecules to create organisms and save to database table 2.
+          </li>
+          <li>View organisms</li>
+          <li>make interface with MUI</li>
+        </ol>
       </header>
     </div>
   );
